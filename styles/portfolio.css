@@ -100,10 +100,15 @@ nav a {
 }
 
 /* main section styles */
-main{
+main section {
+    margin-top: 130px;
+}
+
+main {
     max-width: 1140px;
     margin: 0px auto;
 }
+
 /* about us styles */
 .about {
     padding: 130px;
@@ -111,19 +116,43 @@ main{
     background-color: #fff8f3;
     margin: 130px 0px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
 
-.about-info{
+.about-info {
     text-align: center;
 }
 
-#what-i-do-description{
+#what-i-do-description {
     padding: 30px 150px;
 }
 
-.skills-container{
+/* skills related style */
+
+.skills-container {
     display: flex;
+    gap: 24px;
+}
+
+.skills {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #201919;
+    box-shadow: 0px 8px 50px 0px;
+
+}
+
+.skills-description {
+    color: #757575;
+}
+
+/* resume section style */
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
